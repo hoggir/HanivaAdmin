@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailPinjamanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/colorPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/ic_wave2"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/pp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="32dp"
+                android:textSize="24sp"
+                android:text="Detail Pinjaman"
+                android:textColor="#fff"/>
+
+            <ImageView
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:src="@drawable/ic_smartphone"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textColor="@color/primary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvDPNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_personprofile"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="Nama"/>
+
+            <TextView
+                android:id="@+id/tvDAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_loc"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="Alamat"/>
+
+            <TextView
+                android:id="@+id/tvDNohp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="No HP"/>
+
+            <TextView
+                android:id="@+id/tvDJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_jumlah"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="Jumlah"/>
+
+            <TextView
+                android:id="@+id/tvDWaktu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_waktu"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="Waktu"/>
+
+            <TextView
+                android:id="@+id/tvDJaminan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_jaminan"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="Jaminan"/>
+
+            <TextView
+                android:id="@+id/tvDStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_status"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="Status"/>
+
+            <TextView
+                android:id="@+id/tvDIduser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_id"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:text="IDUser"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="start"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Lengkapi Survei"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/round_bg"/>
+
+    </LinearLayout>
+
+</ScrollView>

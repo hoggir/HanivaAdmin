@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e7008a</color>
+    <color name="colorPrimaryDark">#e7008a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#E5E5E5</color>
+
+
+    <color name="purple">#4A47A7</color>
+    <color name="green">#1FB074</color>
+    <color name="salmon">#f28665</color>
+    <color name="mikado">#ffca0f</color>
+    <color name="persian">#1264a3</color>
+
+    <color name="primary">#1FB074</color>
+    <color name="primary_dark">#1FB074</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTextColor">#FFFFFF</color>
+    <color name="my_spinner_text_color">#7e7e7e</color>
+</resources>
